@@ -27,3 +27,10 @@ npm run aboutTest
 8. Run reset test
 npm run resetTest
 
+9. to check report
+full suite - /report/report.htm
+
+based on the execution name can get the reports under report folder
+
+10. screenshots for failure test cases 
+/screenshots
