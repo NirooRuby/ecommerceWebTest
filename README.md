@@ -9,28 +9,13 @@ install NodeJS
 npm install
 then make sure the node module folder created in this root folder
 
-4. Run full suite
+4. Run full suite execute chrome and firefox
 npm run E2ETest
 
-5. Run login test
-npm run loginTest
-
-6. Run product test
-npm run productTest
-
-7. Run logout test
-npm run logoutTest
-
-8. Run about test
-npm run aboutTest
-
-8. Run reset test
-npm run resetTest
-
-9. to check report
+5. to check report
 full suite - /report/report.htm
 
 based on the execution name can get the reports under report folder
 
-10. screenshots for failure test cases 
+6. screenshots for failure test cases 
 /screenshots
