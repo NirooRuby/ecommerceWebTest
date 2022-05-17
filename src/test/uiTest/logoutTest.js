@@ -9,6 +9,7 @@ import attributes from "../commonAttribute/attributes";
 validDataSet.forEach(data => {
 fixture `Logout Tests`
     .page(domain().url) .beforeEach(async (browser) => {
+        await browser.maximizeWindow();
         await login({
             browser,
             username: data.name,

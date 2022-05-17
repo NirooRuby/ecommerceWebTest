@@ -8,8 +8,9 @@ import domain from "../constants/domain";
 import attributes from "../commonAttribute/attributes";
 
 validDataSet.forEach(data => {
-fixture `Product test Tests`
+fixture `About Tests`
     .page(domain().url) .beforeEach(async (browser) => {
+        await browser.maximizeWindow();
         await login({
             browser,
             username: data.name,
@@ -19,7 +20,7 @@ fixture `Product test Tests`
         });
 
 
-        test(`Verify logout in products screen '${data.name}'`, async t => {
+        test(`Verify about link in products screen '${data.name}'`, async t => {
             await t.wait(2000)
                .click(Selector('#react-burger-menu-btn'))
                .click(Selector('#about_sidebar_link'));
