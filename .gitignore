@@ -1,0 +1,11 @@
+*.iml
+*/.DS_Store
+.DS_Store
+/*.out
+/.idea/
+/dist-*/
+/node_modules
+dist/
+npm-debug.log
+package-lock.json
+.vscode/

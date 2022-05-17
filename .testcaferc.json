@@ -1,0 +1,18 @@
+{
+    "browsers": ["chrome", "firefox"],
+    "src": ["src/test/uiTest/"],
+
+    "screenshots": {
+        "path": "screenshots/",
+        "takeOnFails": true
+    },
+    
+    "skipJsErrors": true,
+ 
+    "concurrency": 1,
+    "selectorTimeout": 5000,
+    "assertionTimeout": 5000,
+    "pageLoadTimeout": 5000,
+    "speed": 1
+
+}

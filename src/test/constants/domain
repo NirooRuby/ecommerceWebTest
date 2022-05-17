@@ -1,0 +1,6 @@
+module.exports = function () {
+    const domain = {};
+    domain.url = 'https://www.saucedemo.com/';
+
+    return domain;
+}
